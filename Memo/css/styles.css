@@ -1,0 +1,25 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: none;
+}
+
+#main {
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.container {
+	max-width: 500px;
+}
+
+.cell {
+	width: 100px;
+	height: 100px;
+	display: inline-block;
+	margin: 0 5px 5px;
+	background: #616161;
+}
