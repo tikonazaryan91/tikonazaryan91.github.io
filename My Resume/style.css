@@ -89,6 +89,8 @@ header {
     color: #ffffff;
 }
 
+/*END OF HEADER SECTION*/
+
 .all-about {
     position: relative;
     width: 100%;
@@ -111,7 +113,6 @@ header {
     transform: scale(0.9);
 }
 
-
 .img-cont img:hover {
     transform: scale(1.05);
 }
@@ -124,12 +125,13 @@ header {
     flex-direction: column;
     justify-content: center;
 }
+
 /*.prof::after {*/
-    /*content: "";*/
-    /*width: 80%;*/
-    /*height: 5px;*/
-    /*background: #5b5c5d;*/
-    /*display: block;*/
+/*content: "";*/
+/*width: 80%;*/
+/*height: 5px;*/
+/*background: #5b5c5d;*/
+/*display: block;*/
 /*}*/
 
 .info-all {
@@ -193,6 +195,8 @@ header {
 .links a:hover {
     color: #5b5c5d;
 }
+
+
 
 /*SECTION EDUCATION*/
 
@@ -532,7 +536,12 @@ header {
     /*bottom: 0;*/
     /*width: 100%;*/
 }
+.all-interests{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
 
+}
 .interests h3 {
     font-family: 'Conv_Karla-Bold', sans-serif;
     font-size: 45px;
@@ -569,6 +578,134 @@ header {
     display: flex;
     justify-content: space-around;
 }
+
+@media screen and (max-width: 480px) {
+    .hide_small {
+        display: none;
+    }
+
+    header {
+        height: 12vh;
+        background: #5b5c5d;
+    }
+
+    .main-nav ul {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+    .main-nav li {
+        list-style: none;
+        font-size: 19px;
+    }
+    .all-about {
+        position: relative;
+        width: 100%;
+        height: 80vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .img-cont img {
+        width: 190px;
+        height: 190px;
+        position: absolute;
+        top: 90px;
+    }
+    .about-links{
+        background: #5b5c5d;
+    }
+
+    .links {
+        width: 90%;
+    }
+    .about-education {
+        width: 85%;
+        font-size: 16px;
+    }
+    .exp_port {
+        display: flex;
+        flex-direction: column;
+    }
+    .about-experience {
+        width: 90%;
+        font-size: 12px;
+    }
+
+    .all-interests{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        margin-top: 315px;
+    }
+    .my_hobbies {
+        height: 15vh;
+        background: #5b5c5d;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    header {
+        height: 12vh;
+        background: #5b5c5d;
+    }
+
+    .main-nav ul {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+    .main-nav li {
+        list-style: none;
+        font-size: 19px;
+    }
+    .all-about {
+        position: relative;
+        width: 100%;
+        height: 80vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .img-cont img {
+        width: 190px;
+        height: 190px;
+        position: absolute;
+        top: 90px;
+    }
+    .about-links{
+        background: #5b5c5d;
+    }
+
+    .links {
+        width: 90%;
+    }
+    .about-education {
+        width: 85%;
+        font-size: 16px;
+    }
+    .exp_port {
+        display: flex;
+        flex-direction: column;
+    }
+    .about-experience {
+        width: 90%;
+        font-size: 12px;
+    }
+
+    .all-interests{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        margin-top: 315px;
+    }
+    .my_hobbies {
+        height: 15vh;
+        background: #5b5c5d;
+    }
+}
+
+
 
 /*PAGE LOADING*/
 
