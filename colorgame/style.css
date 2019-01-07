@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+#main {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body{
+    display: flex;
+}
+#container {
+    width: 650px;
+    margin: 0 auto;
+    height: 610px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.cell {
+    width: 60px;
+    height: 60px;
+    display: inline-block;
+    border: solid 1px black;
+}
+.btn{
+    padding: 10px;
+    color: black;
+    font-family: 'Charm', cursive;
+    border-radius: 5px;
+}
+.btn_score{
+    width:400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Charm', cursive;
+    margin: 0 auto;
+}
